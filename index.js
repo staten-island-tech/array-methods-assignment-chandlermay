@@ -1,26 +1,30 @@
 const valorantweapons = [
-    vandal: {
+    {
+        name:"vandal",
         price: 2900,
         range: "mid",
         killcount: 5561,
         averagedmg: "743 damage per match",
         skins: ["reaver" , "oni" , "prelude to chaos" , "neptune" , "prime"]
     },
-    shorty: {
+    {
+        name:"shorty",
         price: 300,
         range: "close",
         killcount: 86,
         averagedmg: "36.3 damage per match",
         skins: ["prelude to chaos" , "oni" , "neptune"]
     },
-    spectre: {
+    {
+        name:"spectre",
         price: 1600,
         range: "close",
         killcount: 430,
         averagedmg: "800 damage per match",
         skins: ["prime" , "reaver" , "neptune" , "forsaken"]
     },
-    operator: {
+    {
+        name:"operator",
         price: 4700,
         range: "long",
         killcount: 3340,
@@ -28,3 +32,8 @@ const valorantweapons = [
         skins: ["reaver" , "forsaken" , "prelude to chaos" , "glitchpop"]
     },
 ]
+
+valorantweapons.forEach((valorantweapons) => console.log(valorantweapons.name));
+
+valorantweapons.skins.forEach(skins) => {
+    console.log(skin)};
