@@ -35,4 +35,16 @@ const valorantweapons = [
 
 valorantweapons.forEach((valorantweapons) => console.log(valorantweapons.name));
 
-valorantweapons.skins.forEach((valorantweapons.skins) => console.log(skin));
+// valorantweapons.forEach((valorantweapons) => console.log(valorantweapons.skins));
+
+// function printSkins(valorantweapons) {
+//     console.log(valorantweapons.skins);
+// };
+
+// printSkins(valorantweapons);
+
+const logArrayelements = (element) => {
+    console.log(element);
+};
+
+valorantweapons.skins.forEach(logArrayelements(valorantweapons.skins));
