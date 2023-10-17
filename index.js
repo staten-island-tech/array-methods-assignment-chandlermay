@@ -30,8 +30,8 @@ const valorantweapons = [
         killcount: 3340,
         averagedmg: "650 damage per match",
         skins: ["reaver" , "forsaken" , "prelude to chaos" , "glitchpop"]
-    }
-];
+    },
+]
 
 valorantweapons.forEach((valorantweapons) => console.log(valorantweapons.name));
 
@@ -41,8 +41,3 @@ valorantweapons.forEach(valorantweapons => {
     });
 }); 
 
-valorantweapons.forEach(valorantweapons => {
-    valorantweapons.skins.filter("reaver") =>{
-        console.log(valorantweapons.name)
-    };
-})
