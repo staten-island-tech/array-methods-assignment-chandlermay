@@ -41,3 +41,4 @@ valorantweapons.forEach(valorantweapons => {
     });
 }); 
 
+valorantweapons.filter((valorantweapons) => console.log(valorantweapons.range === "close"));
